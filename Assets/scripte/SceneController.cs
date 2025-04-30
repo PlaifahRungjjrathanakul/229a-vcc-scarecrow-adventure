@@ -30,13 +30,4 @@ public class SceneController : MonoBehaviour
         CancelInvoke(); 
         LoadNextScene(); 
     }
-
-    
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
-        {
-            SkipScene();
-        }
-    }
 }
