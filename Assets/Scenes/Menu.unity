@@ -4020,7 +4020,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1248948313}
+      - m_Target: {fileID: 1248948312}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -5298,7 +5298,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1248948311}
   - component: {fileID: 1248948312}
-  - component: {fileID: 1248948313}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -5336,19 +5335,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1248948310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 472c9d49b0aba6142b5533e83d91e9aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1248948313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248948310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d0ff97302bec3b40b8365b6643fed91, type: 3}
+  m_Script: {fileID: 11500000, guid: 75520d84e88e9e04280fe3036b6620c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1288482421
@@ -8543,7 +8530,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1248948313}
+      - m_Target: {fileID: 1248948312}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
