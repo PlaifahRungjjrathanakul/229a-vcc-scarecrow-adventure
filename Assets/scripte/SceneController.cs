@@ -9,16 +9,16 @@ public class SceneController : MonoBehaviour
 
     public Button skipButton; 
 
-    void Start()
-    {
-        Invoke("LoadNextScene", delayBeforeLoad);
+    //void Start()
+    //{
+    //    Invoke("LoadNextScene", delayBeforeLoad);
 
         
-        if (skipButton != null)
-        {
-            skipButton.onClick.AddListener(SkipScene);
-        }
-    }
+    //    if (skipButton != null)
+    //    {
+    //        skipButton.onClick.AddListener(SkipScene);
+    //    }
+    //}
 
     void LoadNextScene()
     {
