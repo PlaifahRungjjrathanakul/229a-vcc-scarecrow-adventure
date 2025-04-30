@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class SceneController : MonoBehaviour
 {
-    public float delayBeforeLoad = 5f;
+    public float delayBeforeLoad = 900f;
     public string nextSceneName = "Credit";
 
     public Button skipButton; 
